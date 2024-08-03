@@ -1,10 +1,10 @@
 @font-face {
-    font-family:NimbusSansLBold;
+    font-family:"NimbusSansLBold";
     src: url(fonts/NimbusSanL-Bol.otf)
 }
 
 .name {
-    font-family:NimbusSansLBold;
+    font-family:"NimbusSansLBold";
     margin:auto
 }
 
