@@ -1,3 +1,13 @@
+@font-face {
+    font-family:NimbusSansLBold;
+    src: url(NimbusSanL-Bol.otf)
+}
+
+.name {
+    font-family:NimbusSansLBold;
+    margin:auto
+}
+
 .toHome {
     position:absolute;
     width:100px;
