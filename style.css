@@ -3,6 +3,10 @@
     src: url(fonts/NimbusSanL-Bol.otf)
 }
 
+body {
+    background-image:url(images/pagebackground.png)
+}
+
 .name {
     font-family:"NimbusSansLBold";
     margin:auto
