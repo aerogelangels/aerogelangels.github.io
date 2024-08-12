@@ -4,8 +4,10 @@
 }
 
 .index {
-    background-image:url(images/background.png);
-    min-height:100vh
+    position:relative;
+    background-image:url(images/pagebackground.png);
+    background-repeat:no-repeat;
+    background-size:100vh;
 }
 
 .name {
