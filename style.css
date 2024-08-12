@@ -11,9 +11,11 @@
     max-height:100vh;
 }
 
-.name {
+div.name {
     font-family:"NimbusSansLBold";
-    margin:auto
+    position:absolute;
+    top:30px;
+    left:30px
 }
 
 .toHome {
