@@ -3,8 +3,9 @@
     src: url(fonts/NimbusSanL-Bol.otf)
 }
 
-body {
-    background-image:url(images/pagebackground.png)
+.index {
+    background-image:url(images/background.png);
+    min-height:100vh
 }
 
 .name {
