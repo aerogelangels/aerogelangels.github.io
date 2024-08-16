@@ -9,6 +9,7 @@
 
 .index {
     background-image:url(images/pagebackground.png);
+    position:relative;
     background-repeat:no-repeat;
     background-size:cover;
     padding:0px;
