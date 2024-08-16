@@ -8,7 +8,7 @@
 /*landing page properties*/
 
 .index {
-    position:fixed;
+    position:relative;
     background-image:url(images/pagebackground.png);
     background-repeat:no-repeat;
     background-size:cover 
