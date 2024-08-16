@@ -8,10 +8,12 @@
 /*landing page properties*/
 
 .index {
-    position:relative;
     background-image:url(images/pagebackground.png);
     background-repeat:no-repeat;
-    background-size:cover 
+    background-size:cover;
+    padding:0px;
+    margin:0px;
+    min-height:100vh
 }
 
 #name {
