@@ -11,17 +11,18 @@
     position:fixed;
     background-image:url(images/pagebackground.png);
     background-repeat:no-repeat;
-    background-size:100%
+    background-size:cover 
 }
 
-div#name {
+#name {
     font-family:"NimbusSansLBold";
     position:absolute;
     top:30px;
     left:30px
 }
 
-div#homeLogoSpin {
+div#homeLogoSpinContainer {
+    width:100%;
     display:flex;
     justify-content:center;
     align-items:center;
