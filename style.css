@@ -21,14 +21,6 @@ div#name {
     left:30px
 }
 
-div#toHome {
-    position:absolute;
-    width:100px;
-    height:100px;
-    top:25px;
-    right:25px
-}
-
 div#homeLogoSpin {
     position:fixed;
     display:block;
@@ -37,3 +29,11 @@ div#homeLogoSpin {
 }
 
 /* Music */
+
+div#toHome {
+    position:absolute;
+    width:100px;
+    height:100px;
+    top:25px;
+    right:25px
+}
