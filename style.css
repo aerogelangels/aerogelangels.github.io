@@ -17,7 +17,7 @@
     min-height:100vh
 }
 
-#name {
+#nameText {
     font-family:"NimbusSansLBold";
     position:absolute;
     top:30px;
