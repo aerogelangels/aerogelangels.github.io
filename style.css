@@ -17,13 +17,6 @@
     min-height:100vh
 }
 
-#nameText {
-    font-family:"NimbusSansLBold";
-    position:absolute;
-    top:30px;
-    left:30px
-}
-
 div#homeLogoSpinContainer {
     width:100%;
     height:100%;
