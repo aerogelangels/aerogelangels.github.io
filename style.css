@@ -29,6 +29,14 @@
     transform:translate(-50%,-50%)
 }
 
+#toLatest {
+    max-height:113px;
+    max-width:300px;
+    position:relative;
+    top:200px;
+    left:200px;
+}
+
 /* Music */
 
 #toHome {
