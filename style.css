@@ -28,37 +28,6 @@
     transform:translate(-50%,-50%)
 }
 
-#buttonContainer {
-    height:600px;
-    width:1350px;
-    position:relative;
-    margin:auto;
-    padding:176px 0;
-}
-
-#toLatest {
-    height:113px;
-    width:300px;
-    position:absolute;
-    left:50px;
-}
-
-#toMusic {
-    height:112px;
-    width:323px;
-    position:absolute;
-    bottom:176px;
-    left:50px;
-}
-
-#toAbout {
-    height:112px;
-    width:313px;
-    position:absolute;
-    bottom:476px;
-
-}
-
 /* Music */
 
 #toHome {
