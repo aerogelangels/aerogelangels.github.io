@@ -1,11 +1,11 @@
-/*global properties*/
+/*global*/
 
 @font-face {
     font-family:"NimbusSansLBold";
     src: url(fonts/NimbusSanL-Bol.otf)
 }
 
-/*landing page properties*/
+/*landing page*/
 
 .index {
     background-image:url(images/background.png);
@@ -28,7 +28,7 @@
     transform:translate(-50%,-50%)
 }
 
-/* Music */
+/*music*/
 
 #toHome {
     position:absolute;
