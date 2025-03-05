@@ -36,11 +36,6 @@
     transition:0.3s;
 }
 
-.dropdown:hover {
-    top:0px;
-    transition:0.3s;
-}
-
 #pulltab {
     position:absolute;
     width:80px;
@@ -54,9 +49,19 @@
     transition:0.3s;
 }
 
+#downArrow {
+    position:absolute;
+    opacity:1;
+    bottom:0px;
+    left:2%;
+    pointer-events:none;
+    z-index: 10;
+}
+
 #pulltab:hover {
     opacity:0.3;
     transition:0.3s;
+    cursor: pointer;
 }
 
 #scrollbar {
