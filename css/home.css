@@ -49,19 +49,19 @@
     transition:0.3s;
 }
 
-#downArrow {
+#pulltab:hover {
+    opacity:0.3;
+    transition:0.3s;
+    cursor: pointer;
+}
+
+#arrow {
     position:absolute;
     opacity:1;
     bottom:0px;
     left:2%;
     pointer-events:none;
     z-index: 10;
-}
-
-#pulltab:hover {
-    opacity:0.3;
-    transition:0.3s;
-    cursor: pointer;
 }
 
 #scrollbar {
