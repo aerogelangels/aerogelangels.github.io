@@ -1,11 +1,9 @@
-/*global*/
-
 @font-face {
     font-family:"NimbusSansLBold";
     src: url(fonts/NimbusSanL-Bol.otf)
 }
 
-/*home page*/
+/*global*/
 
 .index {
     background-image:url(images/background.png);
@@ -15,6 +13,8 @@
     margin:0;
     min-height:100vh
 }
+
+/*logo*/
 
 #spinContainer {
     max-height:700px;
@@ -27,6 +27,8 @@
     left:50%;
     transform:translate(-50%,-50%)
 }
+
+/*dropdown navbar*/
 
 .dropdown {
     position:absolute;
@@ -84,10 +86,96 @@
     opacity:0.3;
 }
 
+/*links*/
+
+.buttons a:link {
+    text-decoration:none;
+    color:white;
+}
+
+.buttons a:visited {
+    text-decoration:none;
+    color:white;
+}
+
+#toAbout {
+    position:absolute;
+    width:25%;
+    height:40px;
+    z-index:2;
+    color:white;
+    text-align:center;
+    vertical-align:middle;
+    line-height:40px;
+    transition:0.2s;
+}
+
+#toAbout:hover {
+    background-color:white;
+    transition:0.2s;
+}
+
+#toMusic {
+    position:absolute;
+    width:25%;
+    height:40px;
+    left:25%;
+    z-index:2;
+    color:white;
+    text-align:center;
+    vertical-align:middle;
+    line-height:40px;
+    transition:0.2s;
+}
+
+#toMusic:hover {
+    background-color:white;
+    transition:0.2s;
+}
+
+#toNow {
+    position:absolute;
+    width:25%;
+    height:40px;
+    left:50%;
+    z-index:2;
+    color:white;
+    text-align:center;
+    vertical-align:middle;
+    line-height:40px;
+    transition:0.2s;
+}
+
+#toNow:hover {
+    background-color:white;
+    transition:0.2s;
+}
+
+#toFun {
+    position:absolute;
+    width:25%;
+    height:40px;
+    left:75%;
+    z-index:2;
+    color:white;
+    text-align:center;
+    vertical-align:middle;
+    line-height:40px;
+    transition:0.2s;
+}
+
+#toFun:hover {
+    background-color:white;
+    transition:0.2s;
+}
+
+/*copyright*/
+
 #copyright {
     position:absolute;
     bottom:3px;
     right:3px;
     text-align:right;
-    color:lightgray
+    color:white;
+    opacity:0.5;
 }
