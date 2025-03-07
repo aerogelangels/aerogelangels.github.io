@@ -1,6 +1,6 @@
 @font-face {
-    font-family:"NimbusSansLBold";
-    src: url(fonts/NimbusSanL-Bol.otf)
+    font-family:"a";
+    src: url(fonts/AlteHaasGroteskRegular.ttf)
 }
 
 /*global*/
@@ -94,8 +94,8 @@
     height:40px;
     z-index:2;
     color:white;
-    font-family:monospace;
-    font-size:x-large;
+    font-family:"a";
+    font-size:xx-large;
     text-align:center;
     vertical-align:middle;
     line-height:40px;
@@ -115,7 +115,8 @@
     left:25%;
     z-index:2;
     color:white;
-    font-size:x-large;
+    font-family:"a";
+    font-size:xx-large;
     text-align:center;
     vertical-align:middle;
     line-height:40px;
@@ -135,7 +136,8 @@
     left:50%;
     z-index:2;
     color:white;
-    font-size:x-large;
+    font-size:xx-large;
+    font-family:"a";
     text-align:center;
     vertical-align:middle;
     line-height:40px;
@@ -155,7 +157,8 @@
     left:75%;
     z-index:2;
     color:white;
-    font-size:x-large;
+    font-size:xx-large;
+    font-family:"a";
     text-align:center;
     vertical-align:middle;
     line-height:40px;
@@ -176,5 +179,6 @@
     right:3px;
     text-align:right;
     color:white;
+    font-family:"a";
     opacity:0.5;
 }
