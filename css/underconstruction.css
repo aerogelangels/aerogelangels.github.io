@@ -1,0 +1,15 @@
+@font-face {
+    font-family:"a";
+    src: url(fonts/AlteHaasGroteskRegular.ttf)
+}
+
+/*global*/
+
+.index {
+    background-image:url(images/background.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    position:relative;
+    margin:0;
+    min-height:100vh
+}
