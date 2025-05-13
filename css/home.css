@@ -6,7 +6,7 @@
 /*global*/
 
 .index {
-    background-image:url(images/background.png);
+    background-image:url(images/animbackground.gif);
     background-repeat:no-repeat;
     background-size:cover;
     position:relative;
@@ -17,9 +17,9 @@
 /*logo*/
 
 #spinContainer {
-    max-height:700px;
-    max-width:700px;
-    background-image:url(images/logocontainer.png);
+    height:595px;
+    width:696px;
+    background-image:url(images/logo\ \(transparent\ white\ cropped\).png);
     background-repeat:no-repeat;
     position:absolute;
     text-align:center;
