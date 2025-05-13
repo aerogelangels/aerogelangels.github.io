@@ -6,7 +6,7 @@
 /*global*/
 
 .index {
-    background-image:url(images/animbackground.gif);
+    background-image:url(images/seamless.gif);
     background-repeat:no-repeat;
     background-size:cover;
     position:relative;
@@ -65,7 +65,7 @@
     pointer-events:none;
     z-index: 10;
     transition:0.3s;
-    opacity:0.5;
+    opacity:1;
 }
 
 #scrollbar {
