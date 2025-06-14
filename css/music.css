@@ -14,7 +14,8 @@
 
 #recent {
     width:700px;
-    height:700px
+    height:700px;
+    text-align:center;
 }
 
 /*dropdown navbar*/
