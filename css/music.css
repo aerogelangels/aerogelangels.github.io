@@ -13,10 +13,16 @@
 }
 
 #recent {
-    margin:auto;
-    height:200px;
-    width:200px;
-    background-image:url(images/pupapack.png)
+    height:300px;
+    width:300px;
+    background-image:url(images/infini2.png);
+    background-size:cover;
+    outline-style:solid;
+    outline-color:white;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-125%)
 }
 
 /*dropdown navbar*/
