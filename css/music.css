@@ -3,8 +3,13 @@
     src: url(fonts/AlteHaasGroteskRegular.ttf)
 }
 
+@font-face {
+    font-family:"b";
+    src: url(fonts/DraftingMono-Regular.ttf)
+}
+
 .music {
-    background-color:black;
+    background-image:url(images/seamless.gif);
     background-repeat:no-repeat;
     background-size:cover;
     position:relative;
@@ -12,17 +17,72 @@
     min-height:100vh
 }
 
-#recent {
-    height:300px;
-    width:300px;
-    background-image:url(images/infini2.png);
-    background-size:cover;
-    outline-style:solid;
-    outline-color:white;
+#content {
     position:absolute;
+    width:1000px;
+    height:725px;
     top:50%;
     left:50%;
-    transform:translate(-50%,-125%)
+    transform:translate(-50%,-50%);
+}
+
+#chrysalis {
+    position:absolute;
+    width:1000px;
+    height:350px;
+    background-color:rgba(0, 0, 0, 0.5);
+    opacity:1;
+}
+
+#chrysText {
+    position:absolute;
+    width:605px;
+    height:290px;
+    left:350px;
+    top:15px;
+    background-color:rgba(112, 128, 144, 0.3);
+    opacity:0.5;
+    font-family:"b";
+    color:white;
+    padding:15px;
+}
+
+#chrysCover {
+    position:absolute;
+    height:320px;
+    width:320px;
+    top:15px;
+    left:15px;
+}
+
+#ep {
+    position:absolute;
+    width:1000px;
+    height:350px;
+    bottom:0px;
+    background-color:rgba(0, 0, 0, 0.5);
+    opacity:1;
+}
+
+#epText {
+    position:absolute;
+    width:605px;
+    height:290px;
+    left:350px;
+    bottom:15px;
+    background-color:rgba(112, 128, 144, 0.3);
+    opacity:0.5;
+    font-family:"b";
+    color:white;
+    padding:15px;
+}
+
+#epCover {
+    position:absolute;
+    height:320px;
+    width:320px;
+    bottom:15px;
+    left:15px;
 }
 
 /*dropdown navbar*/
