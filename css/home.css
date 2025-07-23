@@ -3,6 +3,11 @@
     src: url(fonts/AlteHaasGroteskRegular.ttf)
 }
 
+@font-face {
+    font-family:"b";
+    src: url(fonts/DraftingMono-Regular.ttf)
+}
+
 /*global*/
 
 .index {
@@ -179,6 +184,6 @@
     right:3px;
     text-align:right;
     color:white;
-    font-family:"a";
+    font-family:"b";
     opacity:0.5;
 }

@@ -3,6 +3,11 @@
     src: url(fonts/AlteHaasGroteskRegular.ttf)
 }
 
+@font-face {
+    font-family:"b";
+    src: url(fonts/DraftingMono-Regular.ttf)
+}
+
 .about {
     background-image:url(images/seamless.gif);
     background-repeat:no-repeat;
@@ -153,4 +158,75 @@
     background-color:white;
     transition:0.2s;
     color:black;
+}
+
+/* page content */
+
+#content {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:700px;
+    height:800px;
+}
+
+#title {
+    position:absolute;
+    width:300px;
+    height:250px;
+    background-color:black;
+}
+
+#titleimg {
+    position:absolute;
+    width:225px;
+    height:187.5px;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+#gallery {
+    position:absolute;
+    width:300px;
+    height:525px;
+    bottom:0px;
+    background-color:black;
+    opacity:100%;
+}
+
+#galImage {
+    position:absolute;
+    width:300px;
+    height:525px;
+}
+
+#textContainer {
+    position:absolute;
+    width:375px;
+    height:460px;
+    right:0px;
+    background-color:black;
+    opacity:50%;
+}
+
+#text {
+    position:absolute;
+    width:335px;
+    padding:20px;
+    color:white;
+    font-family:"b";
+    text-align:justify;
+    font-size:13pt;
+}
+
+#links {
+    position:absolute;
+    width:375px;
+    height:315px;
+    bottom:0px;
+    right:0px;
+    background-color:black;
+    opacity:50%;
 }
