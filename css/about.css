@@ -176,6 +176,7 @@
     width:300px;
     height:250px;
     background-color:black;
+    opacity:0.5;
 }
 
 #titleimg {
@@ -227,6 +228,76 @@
     height:315px;
     bottom:0px;
     right:0px;
+}
+
+.centered {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+#spotify {
+    position:absolute;
+    width:175px;
+    height:145px;
     background-color:black;
-    opacity:50%;
+    opacity:0.5;
+    color:white;
+    transition:0.2s;
+}
+
+#spotify:hover {
+    background-color:white;
+    color:black;
+    transition:0.2s;
+}
+
+#soundcloud {
+    position:absolute;
+    right:0px;
+    width:175px;
+    height:145px;
+    background-color:black;
+    opacity:0.5;
+    color:white;
+}
+
+#soundcloud:hover {
+    background-color:white;
+    color:black;
+    transition:0.2s;
+}
+
+#youtube {
+    position:absolute;
+    bottom: 0px;
+    width:175px;
+    height:145px;
+    background-color:black;
+    opacity:0.5;
+    color:white;
+}
+
+#youtube:hover {
+    background-color:white;
+    color:black;
+    transition:0.2s;
+}
+
+#instagram {
+    position:absolute;
+    right:0px;
+    bottom:0px;
+    width:175px;
+    height:145px;
+    background-color:black;
+    opacity:0.5;
+    color:white;
+}
+
+#instagram:hover {
+    background-color:white;
+    color:black;
+    transition:0.2s;
 }

@@ -1,3 +1,15 @@
+var hasDropdownBeenHovered = false;
+function pointToDropBar() {
+    if (hasDropdownBeenHovered == false) {
+        document.getElementById('notification').style.opacity=0.5;
+    }
+}
+
+function deleteBullshit() {
+    hasDropdownBeenHovered = true;
+    document.getElementById('notification').style.opacity=0;
+}
+
 var on = false;
 function dropBar() {
     var arrow = document.getElementById('arrow');
