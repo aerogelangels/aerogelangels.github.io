@@ -1,12 +1,4 @@
-@font-face {
-    font-family:"a";
-    src: url(fonts/AlteHaasGroteskRegular.ttf)
-}
-
-@font-face {
-    font-family:"b";
-    src: url(fonts/DraftingMono-Regular.ttf)
-}
+/*global*/
 
 .music {
     background-image:url(images/seamless.gif);
@@ -42,7 +34,7 @@
     top:15px;
     background-color:rgba(112, 128, 144, 0.3);
     opacity:0.5;
-    font-family:"b";
+    font-family:"c";
     color:white;
     padding:15px;
 }
@@ -72,7 +64,7 @@
     bottom:15px;
     background-color:rgba(112, 128, 144, 0.3);
     opacity:0.5;
-    font-family:"b";
+    font-family:"c";
     color:white;
     padding:15px;
 }

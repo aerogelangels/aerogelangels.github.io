@@ -1,0 +1,14 @@
+@font-face {
+    font-family:"a";
+    src: url(fonts/AlteHaasGroteskRegular.ttf)
+}
+
+@font-face {
+    font-family:"b";
+    src: url(fonts/DraftingMono-Regular.ttf)
+}
+
+@font-face {
+    font-family:"c";
+    src: url(fonts/PrestigeEliteStd-Bd.otf)
+}

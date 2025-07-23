@@ -1,13 +1,3 @@
-@font-face {
-    font-family:"a";
-    src: url(fonts/AlteHaasGroteskRegular.ttf)
-}
-
-@font-face {
-    font-family:"b";
-    src: url(fonts/DraftingMono-Regular.ttf)
-}
-
 /*global*/
 
 .index {
@@ -21,15 +11,16 @@
 
 #notification {
     position:absolute;
-    font-family:"b";
+    font-family:"c";
     background-color:black;
     color:white;
     opacity:0;
     top:10px;
     left:150px;
     font-size:12pt;
-    border-radius:5%;
+    border-radius:5px;
     transition:0.5s;
+    padding:10px;
 }
 
 /*logo*/
@@ -197,6 +188,6 @@
     right:3px;
     text-align:right;
     color:white;
-    font-family:"b";
+    font-family:"c";
     opacity:0.5;
 }

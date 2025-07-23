@@ -1,12 +1,4 @@
-@font-face {
-    font-family:"a";
-    src: url(fonts/AlteHaasGroteskRegular.ttf)
-}
-
-@font-face {
-    font-family:"b";
-    src: url(fonts/DraftingMono-Regular.ttf)
-}
+/*global*/
 
 .about {
     background-image:url(images/seamless.gif);
