@@ -9,9 +9,17 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="icon" type="image/x-icon" href="css/images/favicon.png">
         <title>about aero</title>
-        <script src="funcs.js"></script>
+        <script src="funcs.js">
+            var aero = document.getElementById('titleimg');
+            function titleFun1() {
+                aero.src = 'css/images/logo (transparent black cropped).png';
+            }
+            function titleFun2() {
+                aero.src = 'css/images/logo (transparent white cropped).png';
+            }
+        </script>
     </head>
-    <body class="about">
+    <body onload="unblur()" id="about">
         <div class="dropdown" id="dropdown">
             <div id="scrollbar">
                 <p></p>
@@ -39,7 +47,7 @@
             </div>
         </div>
         <div id="content">
-            <div id="title">
+            <div id="title" onmouseenter="titleFun1()" onmouseleave="titleFun2()">
                 <img id="titleimg" src="css\images\logo (transparent white cropped).png">
             </div>
             <div id="gallery">
@@ -49,7 +57,7 @@
                 <div id="text">
                     My name is <b>Owen</b>, and 'aerogelangels' is my primary creative alias.
                     <br><br>
-                    I am a 21-year-old cretin based out of St. Louis, MO (The 314!).
+                    I am a 21-year-old cretin based out of St. Louis, MO (The 314!)...
                     <br><br>
                     I initially created this name specifically to release ambient music, but it has already commandeered my entire online identity and is now slowly possessing me in real life like the symbiote.
                     <br><br>

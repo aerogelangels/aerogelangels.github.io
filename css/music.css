@@ -6,27 +6,29 @@
     background-size:cover;
     position:relative;
     margin:0;
-    min-height:100vh
+    min-height:100vh;
+    overflow:hidden;
+    filter:blur(10px);
+    transition:2s;
 }
 
 #content {
     position:absolute;
+    overflow:visible;
     width:1000px;
-    height:725px;
+    height:350px;
     top:50%;
     left:50%;
     transform:translate(-50%,-50%);
 }
 
-#chrysalis {
-    position:absolute;
+.album {
     width:1000px;
     height:350px;
-    background-color:rgba(0, 0, 0, 0.5);
-    opacity:1;
+    background-color:rgba(0, 0, 0, 0.5);   
 }
 
-#chrysText {
+.text {
     position:absolute;
     width:605px;
     height:290px;
@@ -39,42 +41,30 @@
     padding:15px;
 }
 
-#chrysCover {
+.cover {
     position:absolute;
     height:320px;
     width:320px;
     top:15px;
     left:15px;
+}
+
+#comingsoon {
+    position:absolute;
+    top:-375px;
+    filter:blur(6px);
+    scale:0.8;
+}
+
+#chrysalis {
+    position:absolute;
 }
 
 #ep {
     position:absolute;
-    width:1000px;
-    height:350px;
-    bottom:0px;
-    background-color:rgba(0, 0, 0, 0.5);
-    opacity:1;
-}
-
-#epText {
-    position:absolute;
-    width:605px;
-    height:290px;
-    left:350px;
-    bottom:15px;
-    background-color:rgba(112, 128, 144, 0.3);
-    opacity:0.5;
-    font-family:"c";
-    color:white;
-    padding:15px;
-}
-
-#epCover {
-    position:absolute;
-    height:320px;
-    width:320px;
-    bottom:15px;
-    left:15px;
+    top:375px;
+    filter:blur(6px);
+    scale:0.8;
 }
 
 /*dropdown navbar*/
