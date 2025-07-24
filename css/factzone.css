@@ -1,0 +1,34 @@
+/*global*/
+
+.factzone {
+    background-image:url(images/funk\ fumper.png);
+}
+
+#back {
+    width:150px;
+    height:auto;
+    padding:20px;
+}
+
+#content {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:900px;
+    height:900px;    
+}
+
+#titleImg {
+    position:absolute;
+    width:700px;
+    height:auto;
+    left:100px;
+}
+
+#text {
+    position:absolute;
+    width:900px;
+    overflow:auto;
+    top:250px;
+}

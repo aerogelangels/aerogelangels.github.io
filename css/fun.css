@@ -1,11 +1,17 @@
-@font-face {
-    font-family:"a";
-    src: url(fonts/AlteHaasGroteskRegular.ttf)
+/*global*/
+
+#fun {
+    background-color:black;
 }
 
-@font-face {
-    font-family:"b";
-    src: url(fonts/DraftingMono-Regular.ttf)
+#content {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:1600px;
+    height:875px;
+    color:white;
 }
 
 /*dropdown navbar*/
