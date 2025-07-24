@@ -35,3 +35,7 @@ const albums = document.getElementsByClassName('album');
 function scrollAlbumsUp() {
 
 }
+
+function scrollAlbumsDown() {
+    
+}

@@ -9,15 +9,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="icon" type="image/x-icon" href="css/images/favicon.png">
         <title>about aero</title>
-        <script src="funcs.js">
-            var aero = document.getElementById('titleimg');
-            function titleFun1() {
-                aero.src = 'css/images/logo (transparent black cropped).png';
-            }
-            function titleFun2() {
-                aero.src = 'css/images/logo (transparent white cropped).png';
-            }
-        </script>
+        <script src="funcs.js"></script>
     </head>
     <body onload="unblur()" id="about">
         <div class="dropdown" id="dropdown">
@@ -47,7 +39,7 @@
             </div>
         </div>
         <div id="content">
-            <div id="title" onmouseenter="titleFun1()" onmouseleave="titleFun2()">
+            <div id="title">
                 <img id="titleimg" src="css\images\logo (transparent white cropped).png">
             </div>
             <div id="gallery">
