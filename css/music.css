@@ -8,13 +8,36 @@
     margin:0;
     min-height:100vh;
     overflow:hidden;
-    filter:blur(10px);
-    transition:2s;
 }
 
-#content {
+.button {
     position:absolute;
-    overflow:visible;
+    width:160px;
+    height:80px;
+    background-color:black;
+}
+
+.button:hover {
+    cursor:pointer;
+}
+
+#upbutton {
+    position:absolute;
+    top:20px;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+#downbutton {
+    position:absolute;
+    bottom:20px;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+#albums {
+    position:absolute;
+    overflow:auto;
     width:1000px;
     height:350px;
     top:50%;
@@ -25,7 +48,8 @@
 .album {
     width:1000px;
     height:350px;
-    background-color:rgba(0, 0, 0, 0.5);   
+    background-color:rgba(0, 0, 0, 0.5);
+    transition:0.5s;   
 }
 
 .text {

@@ -159,67 +159,84 @@
     top:50%;
     left:50%;
     transform:translate(-50%,-50%);
-    width:700px;
-    height:800px;
+    max-width:700px;
+    max-height:800px;
+    width:100%;
+    height:100%;
 }
 
 #title {
     position:absolute;
-    width:300px;
-    height:250px;
+    max-width:300px;
+    max-height:250px;
     background-color:black;
     opacity:0.5;
+    width:100%;
+    height:100%;
 }
 
 #titleimg {
     position:absolute;
-    width:225px;
-    height:187.5px;
+    max-width:225px;
+    max-height:187.5px;
     top:50%;
     left:50%;
     transform:translate(-50%,-50%);
+    width:100%;
+    height:100%;
 }
 
 #gallery {
     position:absolute;
-    width:300px;
-    height:525px;
+    max-width:300px;
+    max-height:525px;
     bottom:0px;
     background-color:black;
     opacity:100%;
+    width:100%;
+    height:100%;
 }
 
 #galImage {
     position:absolute;
-    width:300px;
-    height:525px;
+    max-width:300px;
+    max-height:525px;
+    width:100%;
+    height:100%;
 }
 
 #textContainer {
     position:absolute;
-    width:375px;
-    height:460px;
+    max-width:375px;
+    max-height:460px;
     right:0px;
     background-color:black;
     opacity:50%;
+    width:100%;
+    height:100%;
 }
 
 #text {
     position:absolute;
-    width:335px;
+    max-width:335px;
+    width:100%;
     padding:20px;
     color:white;
     font-family:"b";
     text-align:justify;
     font-size:13pt;
+    width:100%;
+    height:100%;
 }
 
 #links {
     position:absolute;
-    width:375px;
-    height:315px;
+    max-width:375px;
+    max-height:315px;
     bottom:0px;
     right:0px;
+    width:100%;
+    height:100%;
 }
 
 .centered {
@@ -231,8 +248,10 @@
 
 #spotify {
     position:absolute;
-    width:175px;
-    height:145px;
+    max-width:175px;
+    max-height:145px;
+    width:100%;
+    height:100%;
     background-color:black;
     opacity:0.5;
     color:white;
@@ -248,8 +267,10 @@
 #soundcloud {
     position:absolute;
     right:0px;
-    width:175px;
-    height:145px;
+    max-width:175px;
+    max-height:145px;
+    width:100%;
+    height:100%;
     background-color:black;
     opacity:0.5;
     color:white;
@@ -264,8 +285,10 @@
 #youtube {
     position:absolute;
     bottom: 0px;
-    width:175px;
-    height:145px;
+    max-width:175px;
+    max-height:145px;
+    width:100%;
+    height:100%;
     background-color:black;
     opacity:0.5;
     color:white;
@@ -281,8 +304,10 @@
     position:absolute;
     right:0px;
     bottom:0px;
-    width:175px;
-    height:145px;
+    max-width:175px;
+    max-height:145px;
+    width:100%;
+    height:100%;
     background-color:black;
     opacity:0.5;
     color:white;
