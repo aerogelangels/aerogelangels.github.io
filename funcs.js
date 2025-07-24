@@ -32,10 +32,11 @@ function dropBar() {
 }
 
 const albums = document.getElementsByClassName('album');
+var current = 1;
 function scrollAlbumsUp() {
 
 }
 
 function scrollAlbumsDown() {
-    
+
 }
