@@ -10,34 +10,9 @@
     overflow:hidden;
 }
 
-.button {
-    position:absolute;
-    width:160px;
-    height:80px;
-    background-color:black;
-}
-
-.button:hover {
-    cursor:pointer;
-}
-
-#upbutton {
-    position:absolute;
-    top:20px;
-    left:50%;
-    transform:translateX(-50%);
-}
-
-#downbutton {
-    position:absolute;
-    bottom:20px;
-    left:50%;
-    transform:translateX(-50%);
-}
-
 #albums {
     position:absolute;
-    overflow:auto;
+    overflow:visible;
     width:1000px;
     height:350px;
     top:50%;
