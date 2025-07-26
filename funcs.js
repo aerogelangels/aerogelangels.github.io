@@ -31,5 +31,4 @@ function dropBar() {
     on = !on
 }
 
-const albums = document.getElementsByClassName('album');
-let current = 1;
+

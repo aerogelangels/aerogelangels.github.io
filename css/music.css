@@ -12,17 +12,42 @@
 
 #albums {
     position:absolute;
-    overflow:visible;
-    width:1000px;
-    height:350px;
+    overflow-y:auto;
+    width:100%;
+    max-width:1000px;
+    height:100vh;
     top:50%;
     left:50%;
     transform:translate(-50%,-50%);
+    scrollbar-width:none;
+    -ms-overflow-style:none;
+}
+
+#albums::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollpad {
+    position:absolute;
+    max-width:1000px;
+    max-height:275px;
+    width:100%;
+    height:100%;
+}
+
+#topscrollpad {
+    top:0px;
+}
+
+#botscrollpad {
+    top:1450px;
 }
 
 .album {
-    width:1000px;
-    height:350px;
+    width:100%;
+    height:100%;
+    max-width:1000px;
+    max-height:350px;
     background-color:rgba(0, 0, 0, 0.5);
     transition:0.5s;   
 }
@@ -50,20 +75,17 @@
 
 #comingsoon {
     position:absolute;
-    top:-375px;
-    filter:blur(6px);
-    scale:0.8;
+    top:300px;
 }
 
 #chrysalis {
     position:absolute;
+    top:675px;
 }
 
 #ep {
     position:absolute;
-    top:375px;
-    filter:blur(6px);
-    scale:0.8;
+    top:1050px;
 }
 
 /*dropdown navbar*/

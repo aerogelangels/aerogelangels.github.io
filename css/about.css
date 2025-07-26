@@ -7,6 +7,7 @@
     position:relative;
     margin:0;
     min-height:100vh;
+    overflow:hidden;
 }
 
 /*dropdown navbar*/
@@ -236,8 +237,15 @@
 
 @media only screen and (max-width: 600px) {
     #content {
-        max-width:437.5px;
+        max-width:300px;
         max-height:500px;
+        overflow-y:auto;
+        scrollbar-width:none;
+        -ms-overflow-style:none;
+    }
+
+    #content::-webkit-scrollbar {
+        display:none;
     }
 
     #title {
