@@ -120,6 +120,14 @@
     height:100%;
 }
 
+.scrollpad {
+    position:absolute;
+    max-width:0px;
+    max-height:0px;
+    width:100%;
+    height:100%;
+}
+
 #title {
     position:absolute;
     max-width:300px;
@@ -238,7 +246,7 @@
 @media only screen and (max-width: 600px) {
     #content {
         max-width:300px;
-        max-height:500px;
+        height:100vh;
         overflow-y:auto;
         scrollbar-width:none;
         -ms-overflow-style:none;
@@ -248,44 +256,57 @@
         display:none;
     }
 
+    .scrollpad {
+        max-width:300px;
+        max-height:100px;
+    }
+
+    #downscrollpad {
+        top:1552px;
+    }
+
     #title {
-        max-width:187.5px;
-        max-height:156.25px;
+        max-width:300px;
+        max-height:250px;
+        top:100px;
     }
 
     #titleimg {
-        max-width:140.625px;
-        max-height:117.1875px;
+        max-width:225px;
+        max-height:187.5px;
     }
 
     #gallery {
-        max-width:187.5px;
-        max-height:328.125px;
+        max-width:300px;
+        max-height:525px;
+        top:1027px;
     }
 
     #textContainer {
-        max-width:234.375px;
-        max-height:287.5px;
+        max-width:300px;
+        max-height:365px;
+        top:370px;
     }
 
     #text {
-        max-width:209.375px;
-        font-size:8.125pt;
+        max-width:268px;
+        font-size:10.4pt;
         padding:12.5px;
     }
 
     #links {
-        max-width:234.375px;
-        max-height:196.875px;
+        max-width:300px;
+        max-height:252px;
+        top:755px;
     }
 
     .centered {
-        font-size:43.75pt;
+        font-size:56pt;
     }
 
     .link {
-        max-width:109.375px;
-        max-height:90.625px;
+        max-width:140px;
+        max-height:116px;
     }
 
     .navtext {
