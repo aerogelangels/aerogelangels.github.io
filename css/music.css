@@ -149,85 +149,44 @@
 
 /*links*/
 
-#toAbout {
+.navtext {
     position:absolute;
     width:25%;
-    height:40px;
+    max-height:40px;
     z-index:2;
     color:white;
     font-family:"a";
-    font-size:xx-large;
+    font-size:2em;
     text-align:center;
     vertical-align:middle;
     line-height:40px;
     transition:0.2s;
 }
 
-#toAbout:hover {
+.navtext:hover {
     background-color:white;
     transition:0.2s;
     color:black;
+}
+
+#toAbout {
+    left:0%;
 }
 
 #toHome {
-    position:absolute;
-    width:25%;
-    height:40px;
     left:25%;
-    z-index:2;
-    color:white;
-    font-family:"a";
-    font-size:xx-large;
-    text-align:center;
-    vertical-align:middle;
-    line-height:40px;
-    transition:0.2s;
-}
-
-#toHome:hover {
-    background-color:white;
-    transition:0.2s;
-    color:black;
 }
 
 #toNow {
-    position:absolute;
-    width:25%;
-    height:40px;
     left:50%;
-    z-index:2;
-    color:white;
-    font-size:xx-large;
-    font-family:"a";
-    text-align:center;
-    vertical-align:middle;
-    line-height:40px;
-    transition:0.2s;
-}
-
-#toNow:hover {
-    background-color:white;
-    transition:0.2s;
-    color:black;
 }
 
 #toFun {
-    position:absolute;
-    width:25%;
-    height:40px;
     left:75%;
-    z-index:2;
-    color:white;
-    font-size:xx-large;
-    font-family:"a";
-    text-align:center;
-    vertical-align:middle;
-    line-height:40px;
-    transition:0.2s;
 }
 
-#toFun:hover {
-    background-color:white;
-    transition:0.2s;
-    color:black;
+@media only screen and (max-width: 600px) {
+    .navtext {
+        font-size:1.5em;
+    }
 }
