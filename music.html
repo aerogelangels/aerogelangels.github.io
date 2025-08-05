@@ -7,49 +7,32 @@
         <link rel="stylesheet" href="css/music.css">
         <link rel="stylesheet" href="css/fonts.css">
         <link rel="icon" type="image/x-icon" href="css/images/favicon.png">
-        <script src="funcs.js"></script>
+        <script defer src="dropbar.js"></script>
+        <script defer src="albumanim.js"></script>
         <title>catalog</title>
     </head>
     <body onload="unblur()" class="music">
         <div id="content">
-            <div class="blur" id="topblur"></div>
-            <div class="blur" id="botblur"></div>
-            <div id="albums">
-                <div class="scrollpad" id="topscrollpad"></div>
-                <div class="album" id="comingsoon">
-                    <div class="text" id="soonText">
-                        <b style="font-size:20pt;">COMING SOON</b>
-                    </div>
+            <div class="button" id="leftButton" onclick="cycleAlbumsRight()">
+                <img class="arrow_button" src="css\images\arrow.png">
+            </div>
+            <div class="button" id="rightButton" onclick="cycleAlbumsLeft()">
+                <img class="arrow_button" src="css\images\arrowRight.png">
+            </div>
+            <div class="album" id="zero">
+                <div class="text" id="epInfo">
                 </div>
-                <div class="album" id="chrysalis">
-                    <div class="text" id="chrysText">
-                        <b style="font-size:20pt;">⓶ INFINITE CHRYSALIS ⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅</b>
-                        <br><br>
-                        <i>7/26/2025</i>
-                        <br><br>
-                        <i>8 songs, 28 min 54 sec</i>
-                        <br><br>
-                        <i>Genre(s): Ambient, Dubstep(*), Electro House(*), Schranz(*)</i>
-                        <br><br>
-                        <div style="text-align:justify;">The first project I put sweat and tears into. It is basically my debut. It didn't turn out as ambient as I thought it would, but I'm more than happy with what I was able to achieve. Expect another complete style switchup in the next release... ¯\_(ツ)_/¯</div>
-                    </div>
-                    <img class="cover" src="css\images\infini2.png">
+                <img class="cover" src="css\images\Aerogel Angels EP_album_cover.jpg">
+            </div>
+            <div class="album" id="one">
+                <div class="text" id="chrysInfo">
                 </div>
-                <div class="album" id="ep">
-                    <div class="text" id="epText">
-                        <b style="font-size:20pt;">⓵ AEROGEL ANGELS EP ⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅</b>
-                        <br><br>
-                        <i>5/24/2024</i>
-                        <br><br>
-                        <i>5 songs, 18 min 3 sec</i>
-                        <br><br>
-                        <i>Genre(s): Ambient</i>
-                        <br><br>
-                        <div style="text-align:justify">My real first released project, and as such, it will hold a special place in my heart. The difficulty with making a fully ambient, no-percussion project like this one was really focusing on making each song sound distinct, both melodically and in tambre. Might remaster in future...</div>
-                    </div>
-                    <img class="cover" src="css\images\Aerogel Angels EP_album_cover.jpg">
+                <img class="cover" src="css\images\infini2.png">
+            </div>
+            <div class="album" id="two">
+                <div class="text" id="soonInfo">
                 </div>
-                <div class="scrollpad" id="botscrollpad"></div>
+                <img class="cover" src="css\images\interro.png" style="opacity:0.5;filter:blur(1px)">
             </div>
         </div>
         <div class="dropdown" id="dropdown">

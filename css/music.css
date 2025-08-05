@@ -12,92 +12,110 @@
 
 #content {
     position:absolute;
-    width:100%;
-    height:100vh;
-    overflow:visible;
-    max-width:1000px;
-    top:50%;
-    left:50%;
-    transform:translate(-50%,-50%);
-}
-
-#albums {
-    position:absolute;
-    overflow-y:auto;
-    width:100%;
-    max-width:1000px;
-    height:100vh;
-    top:50%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    scrollbar-width:none;
-    -ms-overflow-style:none;
-}
-
-#albums::-webkit-scrollbar {
-    display: none;
-}
-
-.scrollpad {
-    position:absolute;
-    max-width:1000px;
-    max-height:300px;
-    width:100%;
     height:100%;
+    max-height:700px;
+    overflow:hidden;
+    width:100vw;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
 }
 
-#topscrollpad {
-    top:0px;
+.button {
+    position:absolute;
+    height:100%;
+    width:100%;
+    max-height:200px;
+    max-width:100px;
+    top:50%;
+    transform:translateY(-50%);
+    z-index:2;
 }
 
-#botscrollpad {
-    top:1400px;
+.button:hover {
+    cursor:pointer;
+}
+
+#leftButton {
+    left:19.75%;
+}
+
+#rightButton {
+    right:19.75%;
+}
+
+.arrow_button {
+    position:absolute;
+    opacity:0.3;
+    width:100px;
+    height:200px;
+    filter:blur(2px);
+    transition:0.2s;
+}
+
+.arrow_button:hover {
+    opacity:0.6;
+    filter:blur(0px);
 }
 
 .album {
+    position:absolute;
+    scroll-snap-align:center;
     width:100%;
     height:100%;
-    max-width:1000px;
-    max-height:350px;
-    background-color:rgba(0, 0, 0, 0.5);
-    transition:0.5s;   
+    max-width:700px;
+    max-height:700px;
+    background-color:rgba(0, 0, 0, 0.5);   
 }
 
 .text {
     position:absolute;
-    width:605px;
-    height:290px;
+    width:0px;
+    height:0px;
     left:350px;
     top:15px;
     background-color:rgba(112, 128, 144, 0.3);
     opacity:0.5;
     font-family:"c";
     color:white;
-    padding:15px;
+    padding:0px;
 }
 
 .cover {
     position:absolute;
-    height:320px;
-    width:320px;
-    top:15px;
-    left:15px;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%); 
+    height:690px;
+    width:690px;
 }
 
-#comingsoon {
-    position:absolute;
-    top:300px;
+#zero {
+    left:-350px;
+    scale:0.8;
+    filter:blur(10px);
 }
 
-#chrysalis {
-    position:absolute;
-    top:675px;
+#one {
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%); 
+    z-index:1;
+    transition:background-color 0.3s;
 }
 
-#ep {
-    position:absolute;
-    top:1050px;
+#one:hover {
+    background-color:rgba(255, 255, 255, 0.5);
+    cursor: pointer;
 }
+
+#two {
+    right:-350px;
+    scale:0.8;
+    filter:blur(10px);
+}
+
+/*albums animation*/
 
 /*dropdown navbar*/
 
