@@ -12,27 +12,57 @@
         <title>catalog</title>
     </head>
     <body onload="unblur()" class="music">
+        <div id="warnMobile">
+            <img src="">
+        </div>
         <div id="content">
-            <div class="button" id="leftButton" onclick="cycleAlbumsRight()">
+            <div class="button" id="leftButton">
                 <img class="arrow_button" src="css\images\arrow.png">
             </div>
-            <div class="button" id="rightButton" onclick="cycleAlbumsLeft()">
+            <div class="button" id="rightButton">
                 <img class="arrow_button" src="css\images\arrowRight.png">
             </div>
-            <div class="album" id="zero">
-                <div class="text" id="epInfo">
-                </div>
+            <div class="album a0" id="ep">
                 <img class="cover" src="css\images\Aerogel Angels EP_album_cover.jpg">
-            </div>
-            <div class="album" id="one">
-                <div class="text" id="chrysInfo">
+                <div class="albumData" id="chrysInfo">
+                    <div class="overlay">
+                        <iframe src="epinfo/ep.html" class="info_page"></iframe>
+                        <div class='right_bar'></div>
+                        <div class='left_bar'></div>
+                        <div class='bottom_bar'></div>
+                    </div>
+                    <div class="top_bar">
+                        <img class="xbutton" src="css/images/xbutton.png">                             
+                    </div>
                 </div>
+            </div>
+            <div class="album a1" id="ic">
                 <img class="cover" src="css\images\infini2.png">
-            </div>
-            <div class="album" id="two">
-                <div class="text" id="soonInfo">
+                <div class="albumData" id="chrysInfo">
+                    <div class="overlay">
+                        <iframe src="chrysalisinfo/chrysalis.html" class="info_page"></iframe>
+                        <div class='right_bar'></div>
+                        <div class='left_bar'></div>
+                        <div class='bottom_bar'></div>
+                    </div>
+                    <div class="top_bar">
+                        <img class="xbutton" src="css/images/xbutton.png">                             
+                    </div>
                 </div>
+            </div>
+            <div class="album a2" id="comingsoon">
                 <img class="cover" src="css\images\interro.png" style="opacity:0.5;filter:blur(1px)">
+                <div class="albumData" id="chrysInfo">
+                    <div class="overlay">
+                        <iframe src="comingsoon/comingsoon.html" class="info_page"></iframe>
+                        <div class='right_bar'></div>
+                        <div class='left_bar'></div>
+                        <div class='bottom_bar'></div>
+                    </div>
+                    <div class="top_bar">
+                        <img class="xbutton" src="css/images/xbutton.png">                             
+                    </div>
+                </div>
             </div>
         </div>
         <div class="dropdown" id="dropdown">

@@ -1,4 +1,4 @@
-var hasDropdownBeenHovered = false;
+let hasDropdownBeenHovered = false;
 function pointToDropBar() {
     if (hasDropdownBeenHovered == false) {
         document.getElementById('notification').style.opacity=0.5;
@@ -14,7 +14,7 @@ function deleteBullshit() {
     document.getElementById('notification').style.opacity=0;
 }
 
-var on = false;
+let on = false;
 function dropBar() {
     const arrow = document.getElementById('arrow');
     const dropdown = document.getElementById('dropdown');

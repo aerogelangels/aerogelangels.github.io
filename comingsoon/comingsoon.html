@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="comingsoon.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer>
+        function showInfo() {
+            document.getElementById('home').classList.add('hidden');
+            document.getElementById('info').classList.remove('hidden');
+        }
+
+        function showListen() {
+            document.getElementById('home').classList.add('hidden');
+            document.getElementById('listen').classList.remove('hidden');
+        }
+
+        function showStems() {
+            document.getElementById('home').classList.add('hidden');
+            document.getElementById('stems').classList.remove('hidden');
+        }
+
+        function hideInfo() {
+            document.getElementById('info').classList.add('hidden');
+            document.getElementById('home').classList.remove('hidden');
+        }
+
+        function hideListen() {
+            document.getElementById('listen').classList.add('hidden');
+            document.getElementById('home').classList.remove('hidden');
+        }
+
+        function hideStems() {
+            document.getElementById('stems').classList.add('hidden');
+            document.getElementById('home').classList.remove('hidden');
+        }
+    </script>
+</head>
+
+<body>
+    <div id="content">
+        <div id="home">
+            <div class="text">New music coming soon!</div>
+        </div>
+        <div id="info" class="hidden">
+            <div class="text">
+                <b>Name</b>: "Aerogel Angels EP"
+                <br><br>
+                <b>Release date</b>: 5/24/24
+                <br><br>
+                <b>Length</b>: 28 min, 54 sec
+                <br><br>
+                <b>My thoughts</b>: Thank everybody so much for supporting me and listening :D
+            </div>
+            <div class='back' onclick="hideInfo()">⮌ Back</div>
+        </div>
+        <div id="listen" class="hidden">
+            <div class="text">
+                <a href="https://aerogelangels.bandcamp.com/album/infinite-chrysalis" target="_top"><i class="fa fa-bandcamp"></i> Bandcamp</a>
+            </div>
+            <br><br>
+            <div class="text">
+                <a href="https://open.spotify.com/album/4KErQE6YID49Mb2blrIZvK?si=TVgWjxOPSCCM_ecL92a6hw" target="_top"><i class="fa fa-spotify"></i> Spotify</a>
+            </div>
+            <br><br>
+            <div class="text">
+                <a href="https://music.youtube.com/playlist?list=OLAK5uy_lvptb44iuogkmSzjkidQdTwoRhJzJHOTw" target="_top"><i class="fa fa-youtube-play"></i> YouTube</a>
+            </div>
+            <div class='back' onclick="hideListen()">⮌ Back</div>
+        </div>
+        <div id="stems" class="hidden">
+            <div class="link">Coming soon!</div>
+            <br>
+            <div class='back' onclick="hideStems()">⮌ Back</div>
+        </div>
+    </div>
+</body>
