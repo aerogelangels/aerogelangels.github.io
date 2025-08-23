@@ -10,6 +10,24 @@
     overflow:hidden;
 }
 
+.hidden {
+    visibility:hidden;
+}
+
+.title {
+    text-align:center;
+    color:white;
+    font-family:'b';
+}
+
+#warnMobile {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    visibility:hidden;
+}
+
 #content {
     position:absolute;
     height:100%;
@@ -211,8 +229,6 @@
     filter:blur(10px);
 }
 
-/*albums animation*/
-
 /*dropdown navbar*/
 
 .dropdown {
@@ -317,5 +333,9 @@
 
     #content {
         visibility:hidden;
+    }
+
+    #warnMobile {
+        visibility:visible;
     }
 }
