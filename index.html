@@ -4,43 +4,32 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/home.css">
-        <link rel="stylesheet" href="css/fonts.css">
-        <link rel="icon" type="image/x-icon" href="css/images/favicon.png">
+        <link rel="stylesheet" href="global.css">
+        <link rel="stylesheet" href="fonts.css">
+        <link rel="stylesheet" href="home.css">
+        <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
         <title>aerogelangels.net</title>
-        <script src="dropbar.js"></script>
     </head>
-    <body onload="setTimeout(pointToDropBar, 3000)" class="index">
-        <a href="https://aerogelangels.bandcamp.com">
-            <img id="aero" src="css/images/logoshadow.png">
-        </a>
-        <div id="notification">
-            Explore the site!
+    <body>
+        <div class='background'>
+            <video autoplay muted loop playsinline>
+                <source src="assets/images/full-size-crackround.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
         </div>
-        <div class="dropdown" id="dropdown">
-            <img id="arrow" src="css/images/arrowDown.png">
-            <div id="pulltab" onclick="dropBar()" onmouseover="deleteBullshit()"></div>
-            <div class="navbar">
-                <div class="buttons">
-                    <a href="https://aerogelangels.net/about">
-                        <div class="navtext" id="toAbout"><b>about</b></div>
-                    </a>
-                    <a href="https://aerogelangels.net/music">
-                        <div class="navtext" id="toMusic"><b>music</b></div> 
-                    </a>
-                    <a href="https://aerogelangels.net/now">
-                        <div class="navtext" id="toNow"><b>now</b></div>
-                    </a>
-                    <a href="https://aerogelangels.net/fun">
-                        <div class="navtext" id="toFun"><b>fun</b></div>
-                    </a>
-                </div>
+        <div class='content'>
+            <div class='page' id='home'>
+                <img src='assets/images/splaaash.png' usemap="#signature">
+                <map name="signature">
+                    <area target="_top" alt="art by initialbean" title="art by initialbean" href="https://instagram.com/initialbean" coords="666,668,718,603" shape="rect">
+                </map>
+            </div>
+            <div class='struct'>
+                <iframe src='struct.html'></iframe>
             </div>
         </div>
-        <div id="copyright">
-            JULY 2025
-            <br>
-            <a href="https://n0thanky0u.neocities.org/license.txt">no rights reserved</a>
-        </div>
+        <a class='copyscork' href='https://n0thanky0u.neocities.org/license.txt'>
+            <img src='assets/images/copyscork.png'>
+        </a>
     </body>
 </html>

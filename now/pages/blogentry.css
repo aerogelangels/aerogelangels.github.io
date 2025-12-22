@@ -1,0 +1,33 @@
+.title {
+    position:absolute;
+    width:100%;
+    max-height:65px;
+    height:100%;
+    background-color:rgba(255, 255, 255, 0.75);
+    color:rgba(0,0,0,0.85);
+}
+
+.title p {
+    position:absolute;
+    margin:0;
+    top:50%;
+    transform:translateY(-50%);
+    font-family:'a';
+    font-size:2.6em;
+    padding-left:15px;
+}
+
+.body {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    max-height:420px;
+    height:100%;
+    background-color:rgba(77, 77, 77, 0.15);
+}
+
+.body p {
+    margin:15px;
+    font-family:MS Gothic;
+    color:rgba(255, 255, 255, 0.75)
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../global.css">
+        <link rel="stylesheet" href="../fonts.css">
+        <link rel="stylesheet" href="music.css">
+        <link rel="icon" type="image/x-icon" href="../assets/images/favicon.png">
+        <title>02 // music</title>
+        <script src='albumskript.js' defer></script>
+    </head>
+    <body onload=addPageListeners()>
+        <div class='background'>
+            <video autoplay muted loop playsinline>
+                <source src="../assets/images/full-size-crackround.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class='content'>
+            <div class='page' id='music'>
+                <div class='panel' id='albums'>
+                    <div class='cont' id='a0'>
+                        <img class='highlight_disabled' src='chris.jpg'>
+                    </div>
+                    <div class='cont' id='a1'>
+                        <img class='highlight_disabled' src='ep.jpg'>
+                    </div>
+                </div>
+                <div class='panel' id='details'>
+                    <p id='noSelection'>select an album to learn more about it</p>
+                    <iframe id='albumPage' src=''></iframe>
+                </div>
+            </div>
+            <div class='struct'>
+                <iframe src='../struct.html'></iframe>
+            </div>
+        </div>
+        <a class='copyscork' href='https://n0thanky0u.neocities.org/license.txt'>
+            <img src='../assets/images/copyscork.png'>
+        </a>
+    </body>
+</html>

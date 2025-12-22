@@ -1,0 +1,97 @@
+#titleBloc {
+    max-height:150px;
+    height:100%;
+    max-width:500px;
+    width:100%;
+    background-color:rgba(0,0,0, 0.85);
+}
+
+#titleBloc img {
+    position:absolute;
+    max-height:150px;
+    max-width:500px;
+    opacity:0.75;
+}
+
+#dateSel {
+    position:absolute;
+    right:0;
+    max-width:230px;
+    width:100%;
+    max-height:150px;
+    height:100%;
+}
+
+#date {
+    width:100%;
+    max-height:65px;
+    height:100%;
+    background-color:rgba(0, 0, 0, 0.85)
+}
+
+#date p {
+    position:absolute;
+    margin:0;
+    color:rgba(255, 255, 255, 0.75);
+    font-family:MS UI Gothic;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    padding-left:0;
+    font-size:2.4em;
+}
+
+.datePanel {
+    max-height:65px;
+    height:100%;
+    max-width:105px;
+    width:100%;
+    color:rgba(255, 255, 255, 0.75);
+    transition:0.1s;
+}
+
+.datePanel:hover {
+    background-color:rgba(255, 255, 255, 0.75);
+    cursor:pointer;
+    color:rgba(87, 118, 255, 0.85);
+    transition:0.1s;
+}
+
+#leftDate {
+    left:0;
+    bottom:0;
+}
+
+#rightDate {
+    right:0;
+    max-height:65px;
+    height:100%;
+    max-width:105px;
+    width:100%;
+    bottom:0;
+}
+
+.leffyrighty {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    font-size:3em;
+}
+
+#blogbody {
+    bottom:0;
+    max-height:530px;
+    height:100%;
+    width:100%;
+}
+
+#blogbody iframe {
+    position:absolute;
+    max-width:720px;
+    width:100%;
+    max-height:500px;
+    height:100%;
+    margin:15px;
+    border:none;
+}

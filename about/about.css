@@ -1,0 +1,266 @@
+#about {
+    max-width:280px;
+    max-height:400px;
+    width:100%;
+    height:100%;
+}
+
+a:link {
+    color:rgba(255, 255, 255, 0.85);
+}
+
+a:visited {
+    color:rgba(87, 118, 255, 0.85);
+}
+
+#aboutTitle {
+    position:absolute;
+    max-width:250px;
+    width:100%;
+    max-height:40px;
+    height:100%;
+    margin:15px;
+    background-color:rgba(255, 255, 255, 0.75);
+}
+
+#aboutTitle p {
+    font-size:2.1em;
+    color:rgba(0, 0, 0, 0.85);
+    font-family:'a';
+    margin:0;
+    padding-left:10px;
+}
+
+#aboutText {
+    position:absolute;
+    top:70px;
+    max-height:125px;
+    height:100%;
+    max-width:250px;
+    width:100%;
+    margin-left:15px;
+    margin-right:15px;
+    background-color:rgba(77, 77, 77, 0.15);
+}
+
+#aboutText p {
+    position:absolute;
+    font-size:1.2em;
+    margin:0;
+    padding-left:10px;
+    padding-right:10px;
+    text-align:right;
+    color:rgba(255, 255, 255, 0.85);
+    font-family:MS Gothic; 
+}
+
+#contactTitle {
+    position:absolute;
+    max-width:250px;
+    width:100%;
+    max-height:40px;
+    height:100%;
+    margin:15px;
+    background-color:rgba(255, 255, 255, 0.75);
+    bottom:135px;
+}
+
+#contactTitle p {
+    position:absolute;
+    font-size:2.1em;
+    color:rgba(0, 0, 0, 0.85);
+    font-family:'a';
+    margin:0;
+    padding-left:10px;
+}
+
+#contactText {
+    position:absolute;
+    max-width:250px;
+    width:100%;
+    margin-left:15px;
+    margin-right:15px;
+    margin-bottom:15px;
+    bottom:0;
+    max-height:120px;
+    height:100%;
+    background-color:rgba(77, 77, 77, 0.15);
+}
+
+#contactText p {
+    position:absolute;
+    font-size:1.2em;
+    margin:0;
+    padding-left:10px;
+    padding-right:10px;
+    color:rgba(255, 255, 255, 0.85);
+    font-family:MS Gothic;
+}
+
+#gallery {
+    max-width:280px;
+    max-height:280px;
+    width:100%;
+    height:100%;
+    bottom:0;
+}
+
+#cycleGal {
+    position:absolute;
+    max-width:40px;
+    max-height:40px;
+    right:10px;
+    top:10px;
+    opacity:0.75;
+}
+
+#galImg {
+    position:absolute;
+    max-width:250px;
+    max-height:250px;
+    width:100%;
+    height:100%;
+    padding:15px;
+}
+
+#qna {
+    max-width:280px;
+    max-height:70px;
+    width:100%;
+    height:100%;
+    left:300px;
+}
+
+#qnaTitle {
+    position:absolute;
+    max-width:250px;
+    width:100%;
+    max-height:40px;
+    height:100%;
+    margin:15px;
+    background-color:rgba(255, 255, 255, 0.75);
+}
+
+#qnaTitle p {
+    font-size:2.1em;
+    color:rgba(0,0,0,0.85);
+    font-family:'a';
+    margin:0;
+    padding-left:10px;
+    top:50%;
+    transform:translateY(-50%);
+    position:absolute;
+}
+
+#pageSel {
+    position:absolute;
+    right:0;
+    max-width:150px;
+    width:100%;
+    max-height:70px;
+    height:100%;
+}
+
+.qnabut {
+    transition:0.1s;
+    color:rgba(255, 255, 255, 0.75);
+}
+
+.qnabut:hover {
+    background-color:rgba(255, 255, 255, 0.75);
+    color:rgba(87, 118, 255, 0.85);
+    cursor:pointer;
+    transition:0.1s;
+}
+
+#leftButton {
+    max-width:65px;
+    width:100%;
+    height:100%;
+}
+
+#rightButton {
+    max-width:65px;
+    width:100%;
+    height:100%;
+    right:0;
+}
+
+.answers {
+    position:absolute;
+    right:0px;
+    max-height:450px;
+    height:100%;
+    max-width:450px;
+    width:100%;
+    top:90px;
+}
+
+.answers iframe {
+    margin:15px;
+    max-width:420px;
+    width:100%;
+    max-height:420px;
+    height:100%;
+    border:none;
+    background-color:rgba(77, 77, 77, 0.15);
+}
+
+.whitebig {
+    font-size:3em;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    position:absolute;
+}
+
+.askme {
+    position:absolute;
+    max-width:450px;
+    width:100%;
+    max-height:140px;
+    height:100%;
+    right:0px;
+    bottom:0px;
+}
+
+.askme form {
+    position:absolute;
+    width:100%;
+    height:100%;
+}
+
+.askme textarea {
+    position:absolute;
+    resize:none;
+    border:2px solid rgba(255, 255, 255, 0.75);
+    margin:15px;
+    padding:5px;
+    max-width:406px;
+    width:100%;
+    max-height:76px;
+    height:100%;
+    background-color:rgba(77, 77, 77, 0.15);
+    color:rgba(255, 255, 255, 0.75);
+    font-size:1.2em;
+}
+
+.askme textarea:focus {
+    outline: none;
+}
+
+.askme button {
+    position:absolute;
+    right:15px;
+    bottom:14px;
+    background-color:rgba(255, 255, 255, 0.75);
+    color:rgba(0, 0, 0, 0.85);
+    border:none;
+    font-size:1em;
+    font-family:MS UI Gothic;
+}
+
+.askme button:hover {
+    cursor:pointer;
+    color:rgba(87, 118, 255, 0.85);
+}

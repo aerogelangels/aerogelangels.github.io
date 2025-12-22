@@ -1,0 +1,140 @@
+.disabled {
+    pointer-events:none;
+    opacity:0.25;
+}
+
+.fullalbum {
+    position:absolute;
+    max-width:275px;
+    max-height:275px;
+}
+
+.fullalbum img {
+    max-width:265px;
+    max-height:265px;
+    border:solid rgba(255, 255, 255, 0.75) 5px;
+    width:100%;
+    height:100%;
+}
+
+.listen {
+    position:absolute;
+    right:0;
+    max-width:275px;
+    max-height:275px;
+    width:100%;
+    height:100%;
+}
+
+.button {
+    position:absolute;
+    background-color:rgba(77, 77, 77, 0.15);
+    max-width:130px;
+    width:100%;
+    max-height:130px;
+    height:100%;
+    transition:0.1s;
+}
+
+.button i {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    font-size:3em;
+    color:rgba(255, 255, 255, 0.75);
+    transition:0.1s;
+}
+
+.button:hover {
+    background-color:rgba(255, 255, 255, 0.75);
+    cursor:pointer;
+    transition:0.1s;
+}
+
+.button:hover i {
+    color:rgba(87, 118, 255, 0.85);
+    transition:0.1s;
+}
+
+#spotify {
+    top:0;
+    right:0;
+}
+
+#youtube {
+    bottom:0;
+}
+
+#applemusic {
+    bottom:0;
+    right:0;
+}
+
+.albumtitle {
+    position:absolute;
+    top:290px;
+    max-height:50px;
+    background-color:rgba(255, 255, 255, 0.75);
+    width:100%;
+    height:100%;
+}
+
+.albumtitle p {
+    position:absolute;
+    margin:0;
+    top:50%;
+    transform:translateY(-50%);
+    color:rgba(0, 0, 0, 0.85);
+    font-family:'a';
+    font-size:2em;
+    padding-left:15px;
+}
+
+.albumtitle i {
+    position:absolute;
+    right:0;
+    top:50%;
+    color:rgba(0, 0, 0, 0.85);
+    transform:translateY(-50%);
+    font-size:1.5em;
+    padding-right:15px;
+}
+
+.data {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    padding:15px;
+    max-width:535px;
+    max-height:285px;
+    height:100%;
+    background-color:rgba(77, 77, 77, 0.15);
+    overflow:hidden;
+}
+
+.data p {
+    position:absolute;
+    margin:0;
+    color:rgba(255, 255, 255, 0.75);
+    font-family:MS Gothic;
+    font-size:1.2em;
+    max-width:530px;
+}
+
+.data a {
+    color:rgb(255, 255, 255, 0.75);
+}
+
+.data a:visited {
+    color:rgba(87, 118, 255, 0.85);
+}
+
+.databground {
+    position:absolute;
+    max-width:400px;
+    max-height:400px;
+    opacity:0.1;
+    right:-45px;
+    top:-75px;
+}

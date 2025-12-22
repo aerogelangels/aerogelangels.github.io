@@ -1,0 +1,144 @@
+.funbut {
+    max-width:138px;
+    width:100%;
+    max-height:200px;
+    height:100%;
+    transition:0.1s;
+}
+
+.funbut img {
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    top:19px;
+    border:2px solid rgba(255, 255, 255, 0.75);
+    max-width:95px;
+    width:100%;
+    max-height:95px;
+    height:100%;
+}
+
+.funbut.active:hover {
+    background-color:rgba(255, 255, 255, 0.15);
+    cursor:pointer;
+    transition:0.1s;
+}
+
+.disabled {
+    opacity:0.25;
+}
+
+.buttitle {
+    position:absolute;
+    top:118px;
+    width:100%;
+    max-width:99px;
+    max-height:21px;
+    height:100%;
+    background-color:rgba(255, 255, 255, 0.75);
+    left:50%;
+    transform:translateX(-50%);
+}
+
+.buttitle p {
+    position:absolute;
+    margin:0;
+    font-family:MS Gothic;
+    font-weight:bold;
+    font-size:1em;
+    width:100%;
+    top:50%;
+    color:rgba(0,0,0,0.85);
+    transform:translateY(-50%);
+    text-align:center;
+    white-space:nowrap;
+}
+
+.butdesc {
+    position:absolute;
+    top:145px;
+    width:100%;
+    max-width:99px;
+    max-height:35px;
+    height:100%;
+    background-color:rgba(77,77,77,0.15);
+    left:50%;
+    transform:translateX(-50%);
+}
+
+.butdesc p {
+    position:absolute;
+    margin:0;
+    font-family:MS Gothic;
+    font-style:italic;
+    font-size:0.7em;
+    color:white;
+    width:100%;
+    top:50%;
+    transform:translateY(-50%);
+    text-align:center;
+}
+
+#b2 {
+    left:153px;
+}
+
+#b3 {
+    left:calc(153*2px);
+}
+
+#b4 {
+    left:calc(153*3px);
+}
+
+#b5 {
+    left:calc(153*4px);
+}
+
+#b6 {
+    top:215px;
+}
+
+#b7 {
+    top:215px;
+    left:153px;
+}
+
+#b8 {
+    top:215px;
+    left:calc(153*2px);
+}
+
+#b9 {
+    top:215px;
+    left:calc(153*3px);
+}
+
+#b10 {
+    top:215px;
+    left:calc(153*4px);
+}
+
+#b11 {
+    bottom:0;
+}
+
+#b12 {
+    bottom:0;
+    left:153px;
+}
+
+#b13 {
+    bottom:0;
+    left:calc(153*2px);
+}
+
+#b14 {
+    bottom:0;
+    left:calc(153*3px);
+}
+
+#b15 {
+    bottom:0;
+    left:calc(153*4px);
+}
