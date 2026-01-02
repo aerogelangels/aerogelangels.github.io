@@ -1,7 +1,16 @@
 /*global*/
 
+body {
+    overflow:auto;
+}
+
 .hidden {
     visibility:hidden;
+}
+
+.inactive {
+    pointer-events:none;
+    opacity:0.25;
 }
 
 .highlight_disabled {
@@ -129,6 +138,26 @@ body {
     transition:0.1s;
 }
 
+#button1 {
+    top:70px;
+}
+
+#button2 {
+    top:calc(70*2px);
+}
+
+#button3 {
+    top:calc(70*3px);
+}
+
+#button4 {
+    top:calc(70*4px);
+}
+
+#button5 {
+    top:calc(70*5px);
+}
+
 .copyscork img {
     position:absolute;
     opacity:0.85;
@@ -136,4 +165,7 @@ body {
     right:5px;
     max-width:75px;
     max-height:75px;
+}
+
+@media screen and (max-width:1100px) {
 }

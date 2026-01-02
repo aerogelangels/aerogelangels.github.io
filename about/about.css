@@ -256,6 +256,8 @@ a:visited {
     background-color:rgba(255, 255, 255, 0.75);
     color:rgba(0, 0, 0, 0.85);
     border:none;
+    max-width:120px;
+    max-height:21.2px;
     font-size:1em;
     font-family:MS UI Gothic;
 }

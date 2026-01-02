@@ -1,0 +1,56 @@
+#friendspage {
+    position:absolute;
+    border:none;
+    width:100%;
+    max-height:625px;
+    height:100%;
+    bottom:0;
+}
+
+.title {
+    position:absolute;
+    max-width:365px;
+    width:100%;
+    max-height:55px;
+    height:100%;
+    background-color:rgba(0, 0, 0, 0.85);
+}
+
+.title p {
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    margin:0;
+    padding-left:15px;
+    color:rgba(255, 255, 255, 0.75);
+    font-family:'a';
+    font-size:2.3em;
+}
+
+.title i {
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    color:rgba(255, 255, 255, 0.75);
+    font-size:2.3em;
+}
+
+#pageSel {
+    position:absolute;
+    background-color:rgba(0,0,0,0.85);
+    max-width:365px;
+    width:100%;
+    max-height:55px;
+    height:100%;
+    right:0;
+}
+
+#pageSel p {
+    position:absolute;
+    top:50%;left:50%;
+    transform:translate(-50%, -50%);
+    margin:0;
+    color:rgba(255,255,255,0.75);
+    font-family:MS UI Gothic;
+    font-size:2.3em;
+}

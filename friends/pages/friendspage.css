@@ -1,0 +1,112 @@
+.disabled {
+    opacity:0.25;
+}
+
+.friendbut {
+    max-width:172.5px;
+    width:100%;
+    max-height:302.5px;
+    height:100%;
+    transition:0.1s;
+}
+
+.friendbut.active:hover {
+    background-color:rgba(255, 255, 255, 0.15);
+    cursor:pointer;
+    transition:0.1s;
+}
+
+.friendbut img {
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    top:18px;
+    border:3px solid rgba(255, 255, 255, 0.75);
+    max-width:130px;
+    width:100%;
+    max-height:130px;
+    height:100%;
+}
+
+.buttitle {
+    position:absolute;
+    top:154px;
+    width:100%;
+    max-width:136px;
+    max-height:21px;
+    height:100%;
+    background-color:rgba(255, 255, 255, 0.75);
+    left:50%;
+    transform:translateX(-50%);
+}
+
+.buttitle p {
+    position:absolute;
+    margin:0;
+    font-family:MS Gothic;
+    font-weight:bold;
+    font-size:1em;
+    width:100%;
+    top:50%;
+    color:rgba(0,0,0,0.85);
+    transform:translateY(-50%);
+    text-align:center;
+    white-space:nowrap;
+}
+
+.butdesc {
+    position:absolute;
+    top:186px;
+    width:100%;
+    max-width:136px;
+    max-height:99px;
+    height:100%;
+    background-color:rgba(77,77,77,0.15);
+    left:50%;
+    transform:translateX(-50%);
+}
+
+.butdesc p {
+    position:absolute;
+    margin:0;
+    font-family:MS Gothic;
+    font-style:italic;
+    font-size:0.7em;
+    color:white;
+    max-width:131px;
+    width:100%;
+    top:50%;
+    transform:translateY(-50%);
+    text-align:center;
+}
+
+#b2 {
+    left:192.5px;
+}
+
+#b3 {
+    left:385px;
+}
+
+#b4 {
+    left:577.5px;
+}
+
+#b5 {
+    bottom:0;
+}
+
+#b6 {
+    left:192.5px;
+    bottom:0;
+}
+
+#b7 {
+    left:385px;
+    bottom:0;
+}
+
+#b8 {
+    left:577.5px;
+    bottom:0;
+}
