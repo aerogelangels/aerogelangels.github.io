@@ -2,3 +2,8 @@
     font-family:"a";
     src: url(assets/fonts/AlteHaasGroteskRegular.ttf)
 }
+
+@font-face {
+    font-family:'mobile';
+    src: url(assets/fonts/MS\ Gothic.ttf)
+}
