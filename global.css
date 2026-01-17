@@ -1,4 +1,20 @@
 /*global*/
+html {
+    scrollbar-color: rgba(255, 255, 255, 0.75) rgba(255, 255, 255, 0);
+    scrollbar-width: thin;
+}
+
+::-webkit-scrollbar-track {
+    background-color:rgba(255, 255, 255, 0);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color:rgba(255, 255, 255, 0.75);
+}
+
+::-webkit-scrollbar {
+    width:8px;
+}
 
 body {
     overflow:auto;
@@ -123,7 +139,7 @@ body {
     font-size:2em;
     color:rgba(255, 255, 255, 0.75);
     text-align:left;
-    transition:0.25s;
+    transition:color 0.25s;
 }
 
 .panel.button:hover{
@@ -165,7 +181,4 @@ body {
     right:5px;
     max-width:75px;
     max-height:75px;
-}
-
-@media screen and (max-width:1100px) {
 }
