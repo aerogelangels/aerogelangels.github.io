@@ -39,12 +39,12 @@ html {
 b {
     color:rgba(255, 255, 255, 0.75);
     font-size:1em;
-    font-family:MS UI Gothic;
+    font-family:'mobile';
 }
 
 p {
     font-size:1em;
-    font-family:MS UI Gothic;
+    font-family:'mobile';
     color:rgba(255, 255, 255, 0.75);
 }
 
