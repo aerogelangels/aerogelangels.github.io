@@ -222,7 +222,7 @@ body {
     width:100%;
     max-height:80px;
     height:100%;
-    bottom:-1030px;
+    bottom:-1730px;
 }
 
 #disclaimerHighlight {
@@ -250,7 +250,7 @@ body {
 
 .answers {
     max-width:250px;
-    bottom:-1550px;
+    bottom:-1450px;
     max-height:500px;
     height:100%;
 }
@@ -272,7 +272,7 @@ body {
     max-height:160px;
     height:100%;
     right:0px;
-    bottom:-1730px;
+    bottom:-1630px;
 }
 
 .askme form {
@@ -318,4 +318,14 @@ body {
 .askme button:hover {
     cursor:pointer;
     color:rgba(87, 118, 255, 0.85);
+}
+
+#bottomblankspacediv {
+    position:absolute;
+    max-width:250px;
+    width:100%;
+    max-height:40px;
+    height:100%;
+    bottom:-1790px;
+    background-color:rgba(255, 0, 0, 0);
 }
