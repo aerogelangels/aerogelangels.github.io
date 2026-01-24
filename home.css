@@ -11,3 +11,32 @@
     margin:15px;
     opacity:0.85;
 }
+
+#fungcontainer {
+    max-width:108px;
+    max-height:171px;
+    margin:10px;
+    width:100%;
+    height:100%;
+    position:absolute;
+    right:88px;
+    top:215px;
+    overflow:hidden;
+}
+
+#fungtext {
+    position:absolute;
+    color:rgba(255, 255, 255, 0.75);
+    font-size:1em;
+    font-family:'mobile';
+    animation: vertical-scroll 8s linear infinite;
+}
+
+@keyframes vertical-scroll {
+    0% {
+        transform: translateY(171px);
+    }
+    100% {
+        transform: translateY(-171px); 
+    }
+}
