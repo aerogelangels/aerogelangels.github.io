@@ -13,7 +13,6 @@ switch (true) {
         splash.src = 'assets/images/humberto.png';
         break;
     case (667 <= splashNum && splashNum <= 999):
-        splash.src = 'assets/images/splaaash.png';
-        document.getElementById('fungtext').classList.remove('hidden');
+        splash.src = 'assets/images/youngsplasher.png';
         break;
 }
