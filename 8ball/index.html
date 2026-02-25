@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../global.css">
+        <link rel="stylesheet" href="../fonts.css">
+        <link rel="stylesheet" href="ball.css">
+        <link rel="icon" type="image/x-icon" href="0001.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src='ball.js' defer></script>
+        <script src='../fun/back.js' defer></script>
+        <title>8 Ball</title>
+    </head>
+    <body>
+        <div id='back'>
+            <a href='http://aerogelangels.net/fun'>
+                <img id='backimg' src='../assets/images/backbut.png'>
+            </a>
+        </div>
+        <div id='content'>
+            <div id='balldiv' class='highlight_disabled'>
+                <img id='glow' src='halo.png'>
+                <img id='magicball' src='0060.png'>
+                <img id='ball' src='0001.png' usemap='#ballmap'>
+                <map name="ballmap" id='funtimes'>
+                    <area target="" alt="" title="" coords="349,350,322" shape="circle">
+                </map>
+                <audio id='rollin'>
+                    <source src="Rolling_Hard.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+                <audio id='win'>
+                    <source src="done.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+                <audio id='haha'>
+                    <source src="ha ha.ogg" type="audio/ogg">
+                    Your browser does not support the audio element.
+                </audio>
+                <div id='balltext'>
+                    <p id='balltextp'></p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

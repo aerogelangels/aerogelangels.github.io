@@ -1,0 +1,83 @@
+body {
+    background-image:url(curtains.png);
+    background-size:cover;
+}
+
+#backimg {
+    max-width:150px;
+    max-height:150px;
+    top:15px;
+    left:15px;
+    position:absolute;
+}
+
+#glow {
+    position:absolute;
+}
+#balldiv{
+    position:absolute;
+    width:100%;
+    height:100%;
+    max-width:700px;
+    max-height:700px;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+}
+
+.hiddenball {
+    opacity:0;
+}
+
+#ball {
+    position:absolute;
+    width:100%;
+    height:100%;
+}
+
+#magicball {
+    position:absolute;
+    width:100%;
+    height:100%;
+}
+
+#funtimes {
+    position:absolute;
+}
+
+#funtimes:hover {
+    cursor:pointer;
+}
+
+#balltext {
+    width:100%;
+    height:100%;
+    max-width:175px;
+    max-height:175px;
+    position:absolute;
+    top:50%;left:50%;
+    border-radius:15px;
+    transform:translate(-50%, -50%);
+    background-color:blue;
+    opacity:0;
+    pointer-events:none;
+    box-shadow:0px 0px 20px 10px blue;
+    filter:blur(1px);
+}
+
+#balltext.active {
+    opacity:0.8;
+    transition:opacity 2s ease;
+}
+
+#balltext p {
+    font-family:'a';
+    position:absolute;
+    font-size:1.3em;
+    color:white;
+    margin:0;
+    width:155px;
+    text-align:center;
+    top:50%;left:50%;
+    transform:translate(-50%, -50%);
+}
