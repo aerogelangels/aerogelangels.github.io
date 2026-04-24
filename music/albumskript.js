@@ -1,5 +1,5 @@
 let selected = false;
-let albumNum = 2;
+let albumNum = 3;
 const noSelection = document.getElementById('noSelection');
 const albumPage = document.getElementById('albumPage');
 albumPage.src = '';
@@ -30,10 +30,13 @@ function selectAlbum() {
 
 function loadAlbumPage(id) {
     switch (id) {
-        case 'a0':
+        case 'a0': 
+            albumPage.src = '../albumpages/fd.html';
+            break;
+        case 'a1':
             albumPage.src = '../albumpages/chrysalis.html';
             break; 
-        case 'a1':
+        case 'a2':
             albumPage.src = '../albumpages/ep.html';
             break;
     }

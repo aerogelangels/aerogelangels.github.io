@@ -58,6 +58,7 @@ const skibi = [
     'NOT IN A BILLION YEARS',
     'NOT IN A MILLION BILLION YEARS',
     "MAYBE IN A BILLION YEARS",
+    "I DON'T KNOW... THAT'S SCARY...",
     "NO WAY JOSÉ",
     "NO CAN DO",
     "UM... NO",

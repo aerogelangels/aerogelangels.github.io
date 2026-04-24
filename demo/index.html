@@ -6,9 +6,60 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../global.css">
         <link rel="stylesheet" href="../fonts.css">
-        <link rel="stylesheet" href="friends.css">
+        <link rel="stylesheet" href="demo.css">
         <link rel="icon" type="image/x-icon" href="../assets/images/demofav.png">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src='../fun/back.js' defer></script>
+        <script src='player.js' defer></script>
         <title>Aero's Demos</title>
     </head>
+    <body>
+        <div id='back'>
+            <a href='http://aerogelangels.net/fun'>
+                <img id='backimg' src='../assets/images/backbut.png'>
+            </a>
+        </div>
+        <div id='content'>
+            <div id='tabheader'>
+                <p id='title'>My Demos.aa</p>
+            </div>
+            <div id='termbody'>
+                <p id='demotext'>
+                    // Aeronet V2.0.0<br>
+                    // (c) 2026 Aerogel Angels Industries. No rights reserved.<br><br>
+
+                    // NOTICE: This page is an archive for music I made when I was younger and never released (please don't expect it to be good). Feel free to listen through it all, see how my style developed over time, and maybe guess some of my early influences. I made a rudimentary player so you can listen to them right here on this page! Of course, you can also download them by clicking the little icon next to the filename.<br><br>
+
+                    // Users >> aerogelangels >> Demos >> <audio class='cool' id='jhouse'><source src='musics/jitter_house.mp3' type='audio/mp3'></audio><a class='play' id='jhousebut'>jitter_house.mp3</a><a class='dl' href='musics/jitter_house.mp3' download><i class='fa fa-download'></i></a> <br><br>
+
+                    // Users >> aerogelangels >> Demos >> <audio class='cool' id='el'><source src='musics/Epic_Leatbeater.mp3' type='audio/mp3'></audio><a class='play' id='elbut'>Epic_Leatbeater.mp3</a><a class='dl' href='musics/Epic_Leatbeater.mp3' download><i class='fa fa-download'></i></a> <br><br>
+
+                    // Users >> aerogelangels >> Demos >> <audio class='cool' id='gegg'><source src='musics/gaming_egg.mp3' type='audio/mp3'></audio><a class='play' id='geggbut'>gaming_egg.mp3</a><a class='dl' href='musics/gaming_egg.mp3' download><i class='fa fa-download'></i></a> <br><br>
+
+                    // Users >> aerogelangels >> Demos >> <audio class='cool' id='ff'><source src='musics/Cool_fivefour.mp3' type='audio/mp3'></audio><a class='play' id='ffbut'>Cool_fivefour.mp3</a><a class='dl' href='musics/Cool_fivefour.mp3' download><i class='fa fa-download'></i></a> <br><br>
+
+                    // Users >> aerogelangels >> Demos >> <audio class='cool' id='con'><source src='musics/contemplation.mp3' type='audio/mp3'></audio><a class='play' id='conbut'>contemplation.mp3</a><a class='dl' href='musics/contemplation.mp3' download><i class='fa fa-download'></i></a> <br><br>
+
+                    // Users >> aerogelangels >> Demos >> <audio class='cool' id='sj'><source src='musics/song_up_in_jong_up.mp3' type='audio/mp3'></audio><a class='play' id='sjbut'>song_up_in_jong_up.mp3</a><a class='dl' href='musics/song_up_in_jong_up.mp3' download><i class='fa fa-download'></i></a> <br><br>
+
+                    // Users >> aerogelangels >> Demos >> <audio class='cool' id='zing'><source src='musics/zingle.mp3' type='audio/mp3'></audio><a class='play' id='zingbut'>zingle.mp3</a><a class='dl' href='musics/zingle.mp3' download><i class='fa fa-download'></i></a> <br><br>
+
+                    // Users >> aerogelangels >> Demos >> <audio class='cool' id='ost1'><source src='musics/OST1.mp3' type='audio/mp3'></audio><a class='play' id='ost1but'>OST1.mp3</a><a class='dl' href='musics/ost1.mp3' download><i class='fa fa-download'></i></a> <br><br>
+
+                    // Users >> aerogelangels >> Demos >> <audio class='cool' id='mem'><source src='musics/memory.mp3' type='audio/mp3'></audio><a class='play' id='membut'>memory.mp3</a><a class='dl' href='musics/memory.mp3' download><i class='fa fa-download'></i></a> <br><br>
+                </p>
+                </p>
+            </div>
+            <div id='nowplayingcont'><p id='nowplaying'></p></div>
+            <div id='playcontainer'>
+                <img src='pause.png' id='pause' class='hidden'>
+                <img src='play.png' id='play' class='hidden'>
+            </div>
+            <div id='volcontainer'>
+                <a class='vol' id='lowvol'>Low</a>
+                <a class='vol' id='medvol'>Med</a>
+                <a class='vol active' id='highvol'>Hi</a>
+            </div>
+        </div>
+    </body>
 </html>

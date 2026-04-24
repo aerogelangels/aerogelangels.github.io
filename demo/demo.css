@@ -1,0 +1,168 @@
+body {
+    background-image:url(backtile.png);
+    background-position:50%;
+}
+
+#backimg {
+    max-width:150px;
+    max-height:150px;
+    top:15px;
+    left:15px;
+    position:absolute;
+    filter:invert();
+}
+
+.paused {
+    animation-play-state: paused !important;
+}
+
+#content {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    max-width:1046px;
+    width:100%;
+    max-height:750px;
+    height:100%;
+    border:solid 2px rgb(0, 0, 0);
+}
+
+#tabheader {
+    position:absolute;
+    background-color: rgb(233, 233, 233);
+    max-width:1046px;
+    max-height:55px;
+    height:100%;
+    width:100%;
+}
+
+#title {
+    position:absolute;
+    margin-left:15px;
+    margin-top:0;
+    margin-bottom:0;
+    font-size:2em;
+    font-family:'mobile';
+    top:50%;
+    transform:translateY(-50%);
+}
+
+#termbody {
+    position:absolute;
+    top:55px;
+    width:100%;
+    max-height:695px;
+    height:100%;
+    background-color:black;
+}
+
+#demotext {
+    margin-top:10px;
+    margin-left:10px;
+    color:rgb(233, 233, 233);
+    font-family: 'mobile';
+}
+
+#playcontainer {
+    max-width:100px;
+    width:100%;
+    max-height:100px;
+    height:100%;
+    position:absolute;
+    bottom:60px;
+    right:40px;
+}
+
+#playcontainer:hover {
+    cursor:pointer;
+}
+
+.play {
+    color:rgba(87, 118, 255, 1);
+}
+
+.play:hover {
+    color:indigo;
+    cursor:pointer;
+}
+
+#pause {
+    position:absolute;
+    width:100%;
+    height:100%;
+}
+
+#play {
+    position:absolute;
+    width:100%;
+    height:100%;
+}
+
+.dl {
+    color:rgb(233, 233, 233);
+    font-size:0.8em;
+}
+
+#nowplayingcont {
+    position:absolute;
+    max-width:120px;
+    width:100%;
+    max-height:20px;
+    height:100%;
+    bottom:175px;
+    right:30px;
+    white-space:nowrap;
+    overflow:hidden;
+}
+
+#nowplaying {
+    color:rgb(233, 233, 233);
+    font-family:'mobile';
+    position:absolute;
+    margin:0;
+    animation: horizontal-scroll 6s linear infinite;
+}
+
+@keyframes horizontal-scroll {
+    0% {
+        transform: translateX(120%);
+    }
+    100% {
+        transform: translateX(-120%); 
+    }
+}
+
+#volcontainer {
+    position:absolute;
+    max-width:120px;
+    width:100%;
+    max-height:20px;
+    height:100%;
+    right:30px;
+    bottom:25px;
+}
+
+.vol {
+    position:absolute;
+    color:rgba(87, 118, 255, 1);
+    margin:0;
+    font-family:'mobile';
+}
+
+.active {
+    color:rgb(233, 233, 233);
+}
+
+.vol:hover {
+    cursor:pointer;
+    color:indigo
+}
+
+#medvol {
+    left:50px;
+}
+
+#highvol {
+    left:100px;
+}
