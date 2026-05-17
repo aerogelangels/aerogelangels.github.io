@@ -1,5 +1,7 @@
 const jhouse = document.getElementById('jhouse');
 const el = document.getElementById('el');
+const s4 = document.getElementById('s4');
+const j2 = document.getElementById('j2');
 const gegg = document.getElementById('gegg');
 const ff = document.getElementById('ff');
 const con = document.getElementById('con');
@@ -39,6 +41,18 @@ function playAudio() {
             el.play();
             currentSong = el;
             nowplaying.innerHTML = 'Now Playing: Epic_Leatbeater.mp3'
+            break;
+        case 's4but': 
+            s4.currentTime = 0;
+            s4.play();
+            currentSong = s4;
+            nowplaying.innerHTML = 'Now Playing: siren_4.mp3'
+            break;
+        case 'j2but':
+            j2.currentTime = 0;
+            j2.play();
+            currentSong = j2;
+            nowplaying.innerHTML = 'Now Playing: juke_gress_2.mp3'
             break;
         case 'geggbut':
             gegg.currentTime = 0;
