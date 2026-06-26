@@ -5,10 +5,11 @@ const date = document.getElementById('datetext');
 const dates = [
     '1.24.2026',
     '5.14.2026',
+    '6.25.2026',
 ]
 
-const mostRecentPage = 1;
-let currentPage = 1;
+const mostRecentPage = 2;
+let currentPage = 2;
 page.src = 'pages/p' + mostRecentPage + '.html'
 date.innerHTML = dates[mostRecentPage];
 
